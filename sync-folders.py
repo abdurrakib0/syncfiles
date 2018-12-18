@@ -5,5 +5,5 @@ targetdir = '/media/rakib/files/test1'
 
 sync(sourcedir, targetdir, 'sync')
 
-# file = open('/media/rakib/files/test/test.txt', 'r')
-# print(file.read())
+# this script can sync 2 differnet folders, if any file is missing in the targeted folder then it will copy the file
+# from the destination folder.
