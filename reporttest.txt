@@ -1,0 +1,2 @@
+/media/rakib/files/test/test3/1.jpg
+/media/rakib/files/test/test3/test.txt
