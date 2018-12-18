@@ -1,2 +1,3 @@
-/media/rakib/files/test/test3/1.jpg
-/media/rakib/files/test/test3/test.txt
+D:\test\test3\1.jpg
+D:\test\test3\test.txt
+D:\test\test3\1462950-Annika-Sorenstam-Quote-There-are-no-shortcuts-to-success.jpg
