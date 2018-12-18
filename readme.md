@@ -1,5 +1,5 @@
 # **File Copier**
-![Alt text](file.png?raw=true "file-copier")
+![Alt text](file-copier.png?raw=true "file-copier")
 
 If you have _a text file_ which contains list of file's path separated by new line(please check the sample.txt) then by using this script you can copy files in another targeted directory. It can handle thousands of file to copy from one directory to another directory.
 
