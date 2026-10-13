@@ -1,12 +1,28 @@
-# **File Copier**
-![Alt text](file-copier.png?raw=true "file-copier")
+# File Copier
 
-If you have _a text file_ which contains list of file's path separated by new line(please check the sample.txt) then by using this script you can copy files in another targeted directory. It can handle thousands of file to copy from one directory to another directory.
+![file-copier](file-copier.png?raw=true)
 
-_It works both in windows, mac and linux._
+Copies a list of files into a target directory. Give it a text file with one file path per line (see `sample.txt`) and it copies each file, creating folders as needed. Handles thousands of files and works on Windows, macOS and Linux.
 
-**Command Line:**
+## Usage
 
-First clone this repo in your pc then cd to project folder then run the below command.
+```bash
+git clone https://github.com/abdurrakib0/syncfiles.git
+cd syncfiles
+pip install -r requirements.txt
+python main.py <list.txt> <destination>
+```
 
-`python main.py <txt file path> <destination path>`
+## Example
+
+```bash
+python main.py sample.txt ./backup
+```
+
+Each path in `sample.txt` is copied into `./backup`, keeping its folder structure (the first few leading folders are dropped, set by `EXCLUDE_DIRECTORY_COUNT` in `main.py`).
+
+`sync-folders.py` is a separate helper script in the same repo.
+
+## License
+
+[MIT](LICENSE)
